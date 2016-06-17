@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.chawy" name="chawy official Repo" version="1.0.0" provider-name="chawy">
+<addon id="repository.vasquez07" name="chawy official Repo" version="1.0.0" provider-name="chawy">
 	<extension point="xbmc.addon.repository" name="Chawy official Repo">
 		<info compressed="false">https://raw.githubusercontent.com/vasquez07/chawy/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/vasquez07/chawy/master/addons.xml.md5</checksum>

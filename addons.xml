@@ -1,65 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.CHAWYTV"
-       name="[COLOR cyan][/COLOR][COLOR red][COLOR blue] CHA[/COLOR][COLOR white]WY[/COLOR]TV[/COLOR]"
-       version="BETA"
-       provider-name="LUIS VASQUEZ">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Lista de canales CHAWYTV</summary>
-    <description lang="en">CANALES RETRASMITIDOS POR INTERNET Y OTRAS PLATAFORMAS, ESTE ADDON ES GRATIS, NO PAGUES POR EL. AGRADECIMIENTO A (Ecuafulltotal)</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.SportsDevil"
-  version="[COLOR blue]2.0.3.9[/COLOR]"
-  name="[COLOR blue]SportsDevil.ByPld[/COLOR]"
-  provider-name="[COLOR lime]MaxMustermann, Al101, Hubbab3, Sattekop,Grupo Pld[/COLOR]">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.requests" />
-   <import addon="script.module.livestreamer" />
-   <import addon="script.module.pydevd" optional="true"/>
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>[COLOR lime]EL GRUPO Y COLABORADORES DE[/COLOR] [COLOR blue]PLD[/COLOR]</summary>
-    <description>[COLOR lime]ESTE PLUGIN A SIDO ACTUALIZADO POR EL GRUPO Y COLABORADORES DE[/COLOR] [COLOR blue]PLD[/COLOR]</description>
-	<description>[COLOR lime]FECHA ACTUALIZACION 16-5-2016[/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="repository.chawy" name="chawy official Repo" version="1.0.0" provider-name="chawy">
 	<extension point="xbmc.addon.repository" name="Chawy official Repo">
-		<info compressed="false">https://raw.github.com/vasquez07/chawy/master/addon.xml</info>
-		<checksum>https://raw.github.com/vasquez07/chawy/master/addon.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/vasquez07/chawy/master</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/vasquez07/chawy/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/vasquez07/chawy/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/vasquez07/chawy/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>chawy official Repo</summary>
